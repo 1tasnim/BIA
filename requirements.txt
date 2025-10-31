@@ -1,2 +1,25 @@
-flask
+# ==== Flask & Web ====
+Flask==3.0.3
+Werkzeug==3.0.2
+
+# ==== Data Processing ====
+pandas==2.2.3
+numpy==1.26.4
+scipy==1.13.1
+
+# ==== Machine Learning ====
+scikit-learn==1.5.2
+xgboost==2.1.1
+
+# ==== Visualization ====
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# ==== Reports & Export ====
+fpdf==1.7.2
+XlsxWriter==3.2.0
+
+# ==== Optional Enhancements ====
+joblib==1.4.2
+openpyxl==3.1.5
 gunicorn
