@@ -1,0 +1,141 @@
+   body {
+      font-family: "Cairo", Arial, sans-serif; 
+      background:#f5f5f5; 
+      color:#222; 
+      margin:0; 
+      padding:0; }
+   header {
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+      background-color: #b8cc71;
+      color: white;
+      text-align: center;
+      padding: 16px 0;
+   }
+   header img.logo {
+      width: 100px;
+      display: block;
+      border-radius: 50px; 
+   }
+   header h2{
+      color: white;
+   }
+    
+   .wrap {
+      max-width:1100px; 
+      margin: 20px auto; 
+      padding: 0 12px; 
+   }
+    
+   .box { 
+      background:#fff; 
+      padding:18px; 
+      margin:14px 0; 
+      border-radius:12px; 
+      box-shadow:0 10px 20px rgba(0,0,0,0.06); 
+   }
+    
+   h1,h2 { 
+      color:#b8cc71; 
+      margin-top:0; 
+   }
+   
+   table { 
+      width:100%; 
+      border-collapse:collapse; 
+      margin-top:10px; 
+   }
+    
+   th, td { 
+      border:1px solid #ddd; 
+      padding:8px; font-size:14px; 
+      text-align:left; 
+   }
+    
+   th { 
+      background:#7593aa; 
+      color:#fff; 
+   }
+    
+   tr:nth-child(even) { 
+      background:#fafafa; 
+   }
+    
+   .data-table { 
+      width:100%; 
+   }
+    
+   .pill { 
+      display:inline-block; 
+      padding:4px 8px; 
+      border-radius:999px; 
+      background:#eef; 
+      color:#225; 
+      font-size:12px; 
+      margin:2px 4px 0 0;
+   }
+    
+   .row { 
+      display:flex; 
+      gap:12px; 
+      flex-wrap:wrap; 
+   }
+    
+   .col { 
+      flex:1 1 300px; 
+   }
+    
+   .ok {
+      color:#0a8f3c; 
+      font-weight:700;
+   }
+    
+   .fail {
+      color:#b00020; 
+      font-weight:700;
+   }
+    
+   img { 
+      max-width:100%; 
+      height:auto; 
+   }
+    
+   .scroll { 
+      max-height:420px; 
+      overflow:auto; 
+   }
+    
+   .code { 
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; 
+      font-size:12px; 
+      background:#f0f3f7; 
+      padding:10px; 
+      border-radius:8px; 
+   }
+    
+   .footer { 
+      text-align:center; 
+      margin:20px 0; 
+   }
+   
+   button{
+      background:#b8cc71; 
+      color:#fff; 
+      border:none; 
+      padding:10px 16px; 
+      border-radius:10px; 
+      cursor:pointer; 
+      font-weight:700;
+   }
+    
+   button:hover{
+      background:#b8cc71;
+   }
+    
+   .footer{
+      color:#7e8aa3;
+      font-size:12px;
+      text-align:center;
+      margin-top:18px
+   }

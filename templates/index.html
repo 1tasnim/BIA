@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Genetic Algorithm for Feature Selection</title>
+<link rel="stylesheet" href="static\css\style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  
+<header>
+  
+    <div class="nav-wrap">
+      <div class="brand">
+        <img src="static/img/logo.jpg" alt="logo" class="logo" />
+        <div class="brand-txt">
+          <div class="title">GA </div>
+          <div class="muted">Genetic Algorithm CSV Analyzer</div>
+        </div>
+      </div>
+      
+      <input type="checkbox" name="" id="toggler">
+
+<label for="toggler" class="fas fa-bars"></label>
+      <nav class="navbar" aria-label="التنقل الرئيسي">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">Team</a>
+      </nav>
+</header>
+<div class="container">
+  <div class="box">
+    <h1> Upload CSV File for Genetic Analysis</h1>
+    <form method="POST" enctype="multipart/form-data">
+      <label> CSV File</label>
+      <input type="file" name="csv_file" accept=".csv" required>
+      <div class="row">
+        <div>
+          <label for="target_hint">Target Column Name (optional)</label>
+          <input type="text" name="target_hint" id="target_hint" placeholder="Leave blank for auto-detection">
+        </div>
+      </div>
+      <h3>Genetic Algorithm Settings</h3>
+      <div class="row">
+        <div>
+          <label for="pop_size">Population Size </label>
+          <input type="number" name="pop_size" value="20" min="4" max="200">
+        </div>
+        <div>
+          <label for="generations">Number of Generations</label>
+          <input type="number" name="generations" value="25" min="5" max="200">
+        </div>
+        <div>
+          <label for="cx_rate">Crossover Rate</label>
+          <input type="number" name="cx_rate" value="0.9" min="0" max="1" step="0.05">
+        </div>
+        <div>
+          <label for="mut_rate">Mutation Rate</label>
+          <input type="number" name="mut_rate" value="0.02" min="0" max="1" step="0.01">
+        </div>
+        <div>
+          <label for="elitism">Elitism</label>
+          <input type="number" name="elitism" value="2" min="0" max="64"> 
+          <div class="hint">The optimal number of individuals that are directly transferred to the next generation</div>
+        </div>
+      </div>
+      <button type="submit">Start Analysis</button>
+    </form>
+  </div>
+</div>
+
+ <footer class="footer" id="about">
+    <div class="foot-card">
+      <p><strong>Team</strong></p>
+      <p><i>Tasnim_149038 · safa_200402 · marwa_200508 · Rayan_172458 · alaa_181453 · Lojyn_172829 · ghadeer_139102</i></p>
+    </div>
+  </footer>
+</body>
+</html>
